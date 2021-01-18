@@ -1,39 +1,50 @@
-# Project Title
+# Loan Qualifier App
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This is a python application that runs using the command line interface. It reads in a csv of loan criteria from various providers called "daily_rate_sheet", asks the user questions to determine which loans, if any, they're eligible for, returns a list of loans they qualify for, and prompts them to save that list if they would like to.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+The application is written in Python
+
+The following packages are used: 
+
+Fire - to run the application [Fire documentation:](https://github.com/google/python-fire) 
+
+Questionary - to ask the user for CLI inputs [Questionary documentation](https://pypi.org/project/questionary/) 
+
+PyTest - to test the functionality of the program [PyTest documentation](https://docs.pytest.org/en/stable/contents.html)
+
+
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Install the Fire library using the following command: 'pip install fire'
 
----
+Install the Questionary library using the following command: 'pip install questionary'
 
-## Examples
-
-This section should include screenshots, code blocks, or animations showing how your project works.
+Install the PyTest library using the following command: 'pip install pytest'
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To use this application, clone the repository, navigate to its source folder in your terminal and launch it using the command 'python app.py' then input your information for each of the prompts you are asked by the program to navigate through and see how many qualifiying loans there are for your circumstances.
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project; since you may want to be reached by recruiters or potential collaborators, include your contact e-mail, and optionally your LinkedIn or Twitter profile.
+Susannah Slocum
+suzyslocum@gmail.com
+
+with help from Javier Barrios
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify others what they can and can not do with your source code and files. Use this section to include the licence you want to use.
+MIT
