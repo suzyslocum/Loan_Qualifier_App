@@ -1,5 +1,7 @@
 # Loan Qualifier App
 
+*module 2 challenge*
+
 This is a python application that runs using the command line interface. It reads in a csv of loan criteria from various providers called "daily_rate_sheet", asks the user questions to determine which loans, if any, they're eligible for, returns a list of loans they qualify for, and prompts them to save that list if they would like to.
 
 ---
